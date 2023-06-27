@@ -1,0 +1,35 @@
+{
+  "@id": "",
+  "@type": [
+    "schema:CreativeWork",
+    "schema:Periodical",
+    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+  ],
+  "schema:about": [
+    {
+      "@id": "http://id.worldcat.org/fast/1175887"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1273793"
+    }
+  ],
+  "schema:associatedMedia": {
+    "@id": "@base:/media/Summer_1984.pdf"
+  },
+  "schema:creator": "Napa Valley Wine Library Association",
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value": "1984"
+  },
+  "schema:identifier": "ark:/87287/d7kw9r",
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:name": "Napa Valley Wine Library Report, Summer 1984",
+  "schema:publisher": {
+    "@id": "info:fedora/.well-known/genid/51/8f/f4/8b/518ff48b-a944-40a6-ad75-a3bb274c21bf"
+  },
+  "schema:sdPublisher": {
+    "@id": "http://id.loc.gov/authorities/names/no2008108707"
+  }
+}

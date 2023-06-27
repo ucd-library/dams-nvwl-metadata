@@ -1,0 +1,35 @@
+{
+  "@id": "",
+  "@type": [
+    "schema:CreativeWork",
+    "schema:Periodical",
+    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+  ],
+  "schema:about": [
+    {
+      "@id": "http://id.worldcat.org/fast/1175887"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1273793"
+    }
+  ],
+  "schema:associatedMedia": {
+    "@id": "@base:/media/Winter_2008_2009.pdf"
+  },
+  "schema:creator": "Napa Valley Wine Library Association",
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value": "2008_2009"
+  },
+  "schema:identifier": "ark:/87287/d75h2k",
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:name": "Napa Valley Wine Library Report, Winter 2008_2009",
+  "schema:publisher": {
+    "@id": "info:fedora/.well-known/genid/c9/d9/c0/6c/c9d9c06c-16fe-4dff-88c5-c49aedf98a75"
+  },
+  "schema:sdPublisher": {
+    "@id": "http://id.loc.gov/authorities/names/no2008108707"
+  }
+}

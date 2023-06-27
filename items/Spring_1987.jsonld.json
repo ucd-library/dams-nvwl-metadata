@@ -1,0 +1,35 @@
+{
+  "@id": "",
+  "@type": [
+    "schema:CreativeWork",
+    "schema:Periodical",
+    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+  ],
+  "schema:about": [
+    {
+      "@id": "http://id.worldcat.org/fast/1273793"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1175887"
+    }
+  ],
+  "schema:associatedMedia": {
+    "@id": "@base:/media/Spring_1987.pdf"
+  },
+  "schema:creator": "Napa Valley Wine Library Association",
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value": "1987"
+  },
+  "schema:identifier": "ark:/87287/d74s9p",
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:name": "Napa Valley Wine Library Report, Spring 1987",
+  "schema:publisher": {
+    "@id": "info:fedora/.well-known/genid/b1/22/a6/72/b122a672-47dd-461b-a169-656ba893856e"
+  },
+  "schema:sdPublisher": {
+    "@id": "http://id.loc.gov/authorities/names/no2008108707"
+  }
+}

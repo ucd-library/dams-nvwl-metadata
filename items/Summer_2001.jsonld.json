@@ -1,0 +1,35 @@
+{
+  "@id": "",
+  "@type": [
+    "schema:CreativeWork",
+    "schema:Periodical",
+    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+  ],
+  "schema:about": [
+    {
+      "@id": "http://id.worldcat.org/fast/1273793"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1175887"
+    }
+  ],
+  "schema:associatedMedia": {
+    "@id": "@base:/media/Summer_2001.pdf"
+  },
+  "schema:creator": "Napa Valley Wine Library Association",
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value": "2001"
+  },
+  "schema:identifier": "ark:/87287/d7nq1m",
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:name": "Napa Valley Wine Library Report, Summer 2001",
+  "schema:publisher": {
+    "@id": "info:fedora/.well-known/genid/49/b7/b9/3d/49b7b93d-d225-49a3-8da8-b3adb5871149"
+  },
+  "schema:sdPublisher": {
+    "@id": "http://id.loc.gov/authorities/names/no2008108707"
+  }
+}

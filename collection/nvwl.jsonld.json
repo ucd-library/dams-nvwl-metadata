@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@id": "",
+  "@type": [
+    "schema:Collection",
+    "ldp:BasicContainer",
+    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+  ],
+  "ucdlib:hasLabels": {
+    "@id": "@base:/labels"
+  },
+  "schema:about": [
+    {
+      "@id": "http://id.worldcat.org/fast/1273793"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1175887"
+    }
+  ],
+  "schema:description": "The Napa Valley Wine Library Association was founded in 1963 to support the Napa Valley Wine Library located in the St. Helena Public Library and provide activities that will increase knowledge of wine and wine making in the Napa Valley. In 1983, the Association began publishing a seasonal report. These reports cover activities of the association, including annual meeting, tasting events, wine appreciation courses, as well as book reviews, interviews with prominent wine makers and reports on the Napa grape harvest. They are a valuable source of information for the history of wine in the Napa Valley.",
+  "schema:image": {
+    "@id": "@base:/catalogs/Fall_2002/cover.jpg"
+  },
+  "schema:keywords": [
+    "Wine--Marketing",
+    "Napa Valley"
+  ],
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/CNE/1.0/"
+  },
+  "schema:name": "Napa Valley Wine Library Reports",
+  "schema:sdDatePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value": "2019"
+  },
+  "schema:sdLicense": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:sdPublisher": {
+    "@id": "http://id.loc.gov/authorities/names/no2008108707"
+  },
+  "schema:temporalCoverage": {
+    "@type": "http://www.w3.org/2001/XMLSchema#duration",
+    "@value": "1984--2005"
+  }
+}

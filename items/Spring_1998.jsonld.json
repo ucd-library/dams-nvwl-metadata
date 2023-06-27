@@ -1,0 +1,35 @@
+{
+  "@id": "",
+  "@type": [
+    "schema:Periodical",
+    "schema:CreativeWork",
+    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+  ],
+  "schema:about": [
+    {
+      "@id": "http://id.worldcat.org/fast/1273793"
+    },
+    {
+      "@id": "http://id.worldcat.org/fast/1175887"
+    }
+  ],
+  "schema:associatedMedia": {
+    "@id": "@base:/media/Spring_1998.pdf"
+  },
+  "schema:creator": "Napa Valley Wine Library Association",
+  "schema:datePublished": {
+    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value": "1998"
+  },
+  "schema:identifier": "ark:/87287/d73w9d",
+  "schema:license": {
+    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+  },
+  "schema:name": "Napa Valley Wine Library Report, Spring 1998",
+  "schema:publisher": {
+    "@id": "info:fedora/.well-known/genid/26/5b/43/9f/265b439f-741b-4193-a80d-2d7b470aed11"
+  },
+  "schema:sdPublisher": {
+    "@id": "http://id.loc.gov/authorities/names/no2008108707"
+  }
+}
