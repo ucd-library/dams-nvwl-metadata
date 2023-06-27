@@ -1,35 +1,56 @@
 {
-  "@id": "",
-  "@type": [
-    "schema:CreativeWork",
-    "schema:Periodical",
-    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
-  ],
-  "schema:about": [
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@graph": [
     {
-      "@id": "http://id.worldcat.org/fast/1273793"
+      "@id": "info:fedora/.well-known/genid/cf/c7/6e/97/cfc76e97-a5b4-4092-87ce-6a2eec46187f",
+      "schema:address": "St. Helena, California",
+      "schema:associatedMedia": {
+        "@id": "@base:/media/Spring_1983.pdf"
+      },
+      "schema:name": "Napa Valley Wine Library Association"
     },
     {
-      "@id": "http://id.worldcat.org/fast/1175887"
+      "@id": "",
+      "@type": [
+        "schema:CreativeWork",
+        "schema:Periodical",
+        "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+      ],
+      "schema:about": [
+        {
+          "@id": "http://id.worldcat.org/fast/1273793"
+        },
+        {
+          "@id": "http://id.worldcat.org/fast/1175887"
+        }
+      ],
+      "schema:associatedMedia": {
+        "@id": "@base:/media/Spring_1983.pdf"
+      },
+      "schema:creator": "Napa Valley Wine Library Association",
+      "schema:datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1983"
+      },
+      "schema:identifier": "ark:/87287/d7ns9b",
+      "schema:license": {
+        "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+      },
+      "schema:name": "Napa Valley Wine Library Report, Spring 1983",
+      "schema:publisher": {
+        "@id": "info:fedora/.well-known/genid/cf/c7/6e/97/cfc76e97-a5b4-4092-87ce-6a2eec46187f"
+      },
+      "schema:sdPublisher": {
+        "@id": "http://id.loc.gov/authorities/names/no2008108707"
+      }
     }
-  ],
-  "schema:associatedMedia": {
-    "@id": "@base:/media/Spring_1983.pdf"
-  },
-  "schema:creator": "Napa Valley Wine Library Association",
-  "schema:datePublished": {
-    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
-    "@value": "1983"
-  },
-  "schema:identifier": "ark:/87287/d7ns9b",
-  "schema:license": {
-    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
-  },
-  "schema:name": "Napa Valley Wine Library Report, Spring 1983",
-  "schema:publisher": {
-    "@id": "info:fedora/.well-known/genid/cf/c7/6e/97/cfc76e97-a5b4-4092-87ce-6a2eec46187f"
-  },
-  "schema:sdPublisher": {
-    "@id": "http://id.loc.gov/authorities/names/no2008108707"
-  }
+  ]
 }

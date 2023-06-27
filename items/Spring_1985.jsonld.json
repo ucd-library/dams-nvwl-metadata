@@ -1,35 +1,56 @@
 {
-  "@id": "",
-  "@type": [
-    "schema:CreativeWork",
-    "schema:Periodical",
-    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
-  ],
-  "schema:about": [
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@graph": [
     {
-      "@id": "http://id.worldcat.org/fast/1273793"
+      "@id": "info:fedora/.well-known/genid/b7/a6/de/32/b7a6de32-d23d-4961-affd-d2ae1de962ac",
+      "schema:address": "St. Helena, California",
+      "schema:associatedMedia": {
+        "@id": "@base:/media/Spring_1985.pdf"
+      },
+      "schema:name": "Napa Valley Wine Library Association"
     },
     {
-      "@id": "http://id.worldcat.org/fast/1175887"
+      "@id": "",
+      "@type": [
+        "schema:CreativeWork",
+        "schema:Periodical",
+        "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+      ],
+      "schema:about": [
+        {
+          "@id": "http://id.worldcat.org/fast/1273793"
+        },
+        {
+          "@id": "http://id.worldcat.org/fast/1175887"
+        }
+      ],
+      "schema:associatedMedia": {
+        "@id": "@base:/media/Spring_1985.pdf"
+      },
+      "schema:creator": "Napa Valley Wine Library Association",
+      "schema:datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1985"
+      },
+      "schema:identifier": "ark:/87287/d7d94f",
+      "schema:license": {
+        "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+      },
+      "schema:name": "Napa Valley Wine Library Report, Spring 1985",
+      "schema:publisher": {
+        "@id": "info:fedora/.well-known/genid/b7/a6/de/32/b7a6de32-d23d-4961-affd-d2ae1de962ac"
+      },
+      "schema:sdPublisher": {
+        "@id": "http://id.loc.gov/authorities/names/no2008108707"
+      }
     }
-  ],
-  "schema:associatedMedia": {
-    "@id": "@base:/media/Spring_1985.pdf"
-  },
-  "schema:creator": "Napa Valley Wine Library Association",
-  "schema:datePublished": {
-    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
-    "@value": "1985"
-  },
-  "schema:identifier": "ark:/87287/d7d94f",
-  "schema:license": {
-    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
-  },
-  "schema:name": "Napa Valley Wine Library Report, Spring 1985",
-  "schema:publisher": {
-    "@id": "info:fedora/.well-known/genid/b7/a6/de/32/b7a6de32-d23d-4961-affd-d2ae1de962ac"
-  },
-  "schema:sdPublisher": {
-    "@id": "http://id.loc.gov/authorities/names/no2008108707"
-  }
+  ]
 }

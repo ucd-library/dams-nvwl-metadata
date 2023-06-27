@@ -1,35 +1,56 @@
 {
-  "@id": "",
-  "@type": [
-    "schema:CreativeWork",
-    "schema:Periodical",
-    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
-  ],
-  "schema:about": [
+  "@context": {
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "schema": "http://schema.org/",
+    "fedora": "http://fedora.info/definitions/v4/repository#",
+    "webac": "http://fedora.info/definitions/v4/webac#",
+    "acl": "http://www.w3.org/ns/auth/acl#",
+    "ucdlib": "http://digital.ucdavis.edu/schema#",
+    "ebucore": "http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+  },
+  "@graph": [
     {
-      "@id": "http://id.worldcat.org/fast/1273793"
+      "@id": "info:fedora/.well-known/genid/e3/3e/62/a9/e33e62a9-8dd2-4559-8c85-25d4aba9966d",
+      "schema:address": "St. Helena, California",
+      "schema:associatedMedia": {
+        "@id": "@base:/media/Summer_1987.pdf"
+      },
+      "schema:name": "Napa Valley Wine Library Association"
     },
     {
-      "@id": "http://id.worldcat.org/fast/1175887"
+      "@id": "",
+      "@type": [
+        "schema:CreativeWork",
+        "schema:Periodical",
+        "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+      ],
+      "schema:about": [
+        {
+          "@id": "http://id.worldcat.org/fast/1273793"
+        },
+        {
+          "@id": "http://id.worldcat.org/fast/1175887"
+        }
+      ],
+      "schema:associatedMedia": {
+        "@id": "@base:/media/Summer_1987.pdf"
+      },
+      "schema:creator": "Napa Valley Wine Library Association",
+      "schema:datePublished": {
+        "@type": "http://www.w3.org/2001/XMLSchema#gYear",
+        "@value": "1987"
+      },
+      "schema:identifier": "ark:/87287/d76m1j",
+      "schema:license": {
+        "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
+      },
+      "schema:name": "Napa Valley Wine Library Report, Summer 1987",
+      "schema:publisher": {
+        "@id": "info:fedora/.well-known/genid/e3/3e/62/a9/e33e62a9-8dd2-4559-8c85-25d4aba9966d"
+      },
+      "schema:sdPublisher": {
+        "@id": "http://id.loc.gov/authorities/names/no2008108707"
+      }
     }
-  ],
-  "schema:associatedMedia": {
-    "@id": "@base:/media/Summer_1987.pdf"
-  },
-  "schema:creator": "Napa Valley Wine Library Association",
-  "schema:datePublished": {
-    "@type": "http://www.w3.org/2001/XMLSchema#gYear",
-    "@value": "1987"
-  },
-  "schema:identifier": "ark:/87287/d76m1j",
-  "schema:license": {
-    "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
-  },
-  "schema:name": "Napa Valley Wine Library Report, Summer 1987",
-  "schema:publisher": {
-    "@id": "info:fedora/.well-known/genid/e3/3e/62/a9/e33e62a9-8dd2-4559-8c85-25d4aba9966d"
-  },
-  "schema:sdPublisher": {
-    "@id": "http://id.loc.gov/authorities/names/no2008108707"
-  }
+  ]
 }
