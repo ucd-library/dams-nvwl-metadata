@@ -10,8 +10,7 @@
   },
   "@id": "",
   "@type": [
-    "ldp:DirectContainer",
-    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+    "ldp:DirectContainer"
   ],
   "ldp:hasMemberRelation": {
     "@id": "schema:associatedMedia"

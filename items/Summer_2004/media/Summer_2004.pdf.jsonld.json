@@ -12,8 +12,7 @@
   "@type": [
     "schema:ImageObject",
     "schema:CreativeWork",
-    "schema:MediaObject",
-    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
+    "schema:MediaObject"
   ],
   "ebucore:filename": "Summer_2004.pdf",
   "ebucore:hasMimeType": "application/pdf"
