@@ -21,6 +21,7 @@
       "@id": "",
       "@type": [
         "schema:Periodical",
+        "schema:ImageObject",
         "schema:CreativeWork",
         "http://fedora.info/definitions/v4/repository#ArchivalGroup"
       ],
@@ -39,6 +40,9 @@
       "schema:datePublished": {
         "@type": "http://www.w3.org/2001/XMLSchema#gYear",
         "@value": "2011"
+      },
+      "schema:image": {
+        "@id": "@base:/media/images/Special_Report_2011-001.jpg"
       },
       "schema:identifier": "ark:/87293/d3g20g",
       "schema:license": {

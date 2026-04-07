@@ -22,6 +22,7 @@
       "@type": [
         "schema:CreativeWork",
         "schema:Periodical",
+        "schema:ImageObject",
         "http://fedora.info/definitions/v4/repository#ArchivalGroup"
       ],
       "schema:about": [
@@ -39,6 +40,9 @@
       "schema:datePublished": {
         "@type": "http://www.w3.org/2001/XMLSchema#gYear",
         "@value": "1993"
+      },
+      "schema:image": {
+        "@id": "@base:/media/images/Spring_1993-001.jpg"
       },
       "schema:identifier": "ark:/87287/d7h37f",
       "schema:license": {

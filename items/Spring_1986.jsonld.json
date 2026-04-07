@@ -21,6 +21,7 @@
       "@id": "",
       "@type": [
         "schema:Periodical",
+        "schema:ImageObject",
         "schema:CreativeWork",
         "http://fedora.info/definitions/v4/repository#ArchivalGroup"
       ],
@@ -39,6 +40,9 @@
       "schema:datePublished": {
         "@type": "http://www.w3.org/2001/XMLSchema#gYear",
         "@value": "1986"
+      },
+      "schema:image": {
+        "@id": "@base:/media/images/Spring_1986-001.jpg"
       },
       "schema:identifier": "ark:/87287/d78m15",
       "schema:license": {

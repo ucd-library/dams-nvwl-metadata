@@ -12,7 +12,8 @@
   "@type": [
     "schema:ImageObject",
     "schema:CreativeWork",
-    "schema:MediaObject"
+    "schema:MediaObject",
+    "http://fedora.info/definitions/v4/repository#ArchivalGroup"
   ],
   "ebucore:filename": "Winter_2010.pdf",
   "ebucore:hasMimeType": "application/pdf"

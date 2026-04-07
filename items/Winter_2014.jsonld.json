@@ -21,6 +21,7 @@
       "@id": "",
       "@type": [
         "schema:Periodical",
+        "schema:ImageObject",
         "schema:CreativeWork",
         "http://fedora.info/definitions/v4/repository#ArchivalGroup"
       ],
@@ -39,6 +40,9 @@
       "schema:datePublished": {
         "@type": "http://www.w3.org/2001/XMLSchema#gYear",
         "@value": "2014"
+      },
+      "schema:image": {
+        "@id": "@base:/media/images/Winter_2014-001.jpg"
       },
       "schema:identifier": "ark:/87287/d7nh2x",
       "schema:license": {
