@@ -44,7 +44,7 @@
       "schema:image": {
         "@id": "@base:/media/images/Autumn_2019-001.jpg"
       },
-      "schema:identifier": "ark:/87293/d3h12vc2f",
+      "schema:identifier": "/ark:/87293/d3h12vc2f",
       "schema:license": {
         "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
       },

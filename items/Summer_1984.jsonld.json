@@ -44,7 +44,7 @@
       "schema:image": {
         "@id": "@base:/media/images/Summer_1984-001.jpg"
       },
-      "schema:identifier": "ark:/87287/d7kw9r",
+      "schema:identifier": "/ark:/87287/d7kw9r",
       "schema:license": {
         "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
       },

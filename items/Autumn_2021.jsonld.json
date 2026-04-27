@@ -44,7 +44,7 @@
       "schema:image": {
         "@id": "@base:/media/images/Autumn_2021-001.jpg"
       },
-      "schema:identifier": "ark:/87293/d34746w0r",
+      "schema:identifier": "/ark:/87293/d34746w0r",
       "schema:license": {
         "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
       },

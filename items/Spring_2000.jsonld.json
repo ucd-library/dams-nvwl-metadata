@@ -44,7 +44,7 @@
       "schema:image": {
         "@id": "@base:/media/images/Spring_2000-001.jpg"
       },
-      "schema:identifier": "ark:/87287/d7036d",
+      "schema:identifier": "/ark:/87287/d7036d",
       "schema:license": {
         "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
       },

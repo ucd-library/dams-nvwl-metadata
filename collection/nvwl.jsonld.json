@@ -29,7 +29,7 @@
   "schema:image": {
     "@id": "info:fedora/item/ark:/87287/d7x943/media/images/Fall_2002-001.jpg"
   },
-  "schema:identifier": "ark:/87293/d33x83s84",
+  "schema:identifier": "/ark:/87293/d33x83s84",
   "schema:keywords": [
     "Wine--Marketing",
     "Napa Valley"

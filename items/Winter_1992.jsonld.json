@@ -44,7 +44,7 @@
       "schema:image": {
         "@id": "@base:/media/images/Winter_1992-001.jpg"
       },
-      "schema:identifier": "ark:/87287/d7b66j",
+      "schema:identifier": "/ark:/87287/d7b66j",
       "schema:license": {
         "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
       },

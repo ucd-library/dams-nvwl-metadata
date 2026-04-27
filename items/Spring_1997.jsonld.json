@@ -44,7 +44,7 @@
       "schema:image": {
         "@id": "@base:/media/images/Spring_1997-001.jpg"
       },
-      "schema:identifier": "ark:/87287/d77m1v",
+      "schema:identifier": "/ark:/87287/d77m1v",
       "schema:license": {
         "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
       },

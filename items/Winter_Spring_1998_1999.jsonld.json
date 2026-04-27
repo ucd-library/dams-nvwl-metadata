@@ -44,7 +44,7 @@
       "schema:image": {
         "@id": "@base:/media/images/Winter_Spring_1998_1999-001.jpg"
       },
-      "schema:identifier": "ark:/87293/d3kv3g",
+      "schema:identifier": "/ark:/87293/d3kv3g",
       "schema:license": {
         "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
       },

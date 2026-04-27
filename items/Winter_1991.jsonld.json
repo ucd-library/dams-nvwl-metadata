@@ -44,7 +44,7 @@
       "schema:image": {
         "@id": "@base:/media/images/Winter_1991-001.jpg"
       },
-      "schema:identifier": "ark:/87287/d7g08g",
+      "schema:identifier": "/ark:/87287/d7g08g",
       "schema:license": {
         "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
       },

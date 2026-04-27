@@ -44,7 +44,7 @@
       "schema:image": {
         "@id": "@base:/media/images/Summer_2000-001.jpg"
       },
-      "schema:identifier": "ark:/87287/d7sd3h",
+      "schema:identifier": "/ark:/87287/d7sd3h",
       "schema:license": {
         "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
       },

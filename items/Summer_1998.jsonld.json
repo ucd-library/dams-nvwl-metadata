@@ -44,7 +44,7 @@
       "schema:image": {
         "@id": "@base:/media/images/Summer_1998-001.jpg"
       },
-      "schema:identifier": "ark:/87287/d71w8d",
+      "schema:identifier": "/ark:/87287/d71w8d",
       "schema:license": {
         "@id": "http://rightsstatements.org/vocab/InC-NC/1.0/"
       },
